@@ -1,0 +1,52 @@
+body {
+  background-color: #F2F2F2;
+} 
+
+#Header{
+	font-size: 40px ;
+	text-align: center; 
+	
+}
+
+#grid-container {
+  display: grid;
+  justify-content: space-evenly ;
+  
+  grid-template-columns: auto auto auto;
+  
+  -- for the gaps to be constant 
+  --justify-content: center ;
+  
+}
+
+.grid-item{
+	margin: 20px;
+	background-color: #FFFFFF;
+
+}
+
+.grid-item-image{
+	margin-bottom = 0px;
+}
+
+
+.grid-item-description{
+	margin-top: 0 ;
+	height: 100%;
+	background-color: #FFFFFF;
+	
+}
+.grid-item-header{
+	height: 100% ;
+	text-align: center; 
+}
+
+.grid-item-body{
+	height:100%;
+	color: #B2B2B2;
+	text-align: center; 
+	
+
+
+}
+
